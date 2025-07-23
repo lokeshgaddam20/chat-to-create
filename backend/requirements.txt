@@ -1,0 +1,2 @@
+# NLP and ML dependencies
+transformers==4.30.2

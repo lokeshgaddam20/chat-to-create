@@ -1,0 +1,12 @@
+ # templates/registry.json - Template registry
+{
+    "templates": {
+        "gcs-bucket": {
+            "path": "templates/gcp/gcs-bucket/",
+            "function": "create_gcs_bucket",
+            "keywords": ["bucket", "gcs", "storage", "cloud storage", "google storage"],
+            "required_vars": ["bucket_name", "project_id"],
+            "optional_vars": ["location"]
+        }
+    }
+}

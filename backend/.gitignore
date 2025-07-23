@@ -1,0 +1,26 @@
+# .gitignore for Python project
+# Python cache files
+__pycache__/
+*.py[cod]
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints
+# Virtual environment
+.venv
+# Environment variables
+.env
+# Logs
+*.log
+
+# IDE specific files
+.vscode/
+# Ignore Python bytecode files
+*.pyc
+# Ignore cache directories
+.cache/
+# Ignore coverage reports
+coverage/
+# Ignore build directories
+build/
+dist/
+
